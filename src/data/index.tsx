@@ -10,624 +10,624 @@ export interface RegionData {
 
 export const regionData: RegionData[] = [
     {
-        id: "AZ-ABS",
+        "id": "AZ-ABS",
         "name": "Abşeron",
         "field": "1361,4",
-        date: 1963,
-        citynum: 1,
-        regionnum: 7,
-        regioncentername: "Xırdalan ş."
+        "date": 1963,
+        "citynum": 1,
+        "regionnum": 7,
+        "regioncentername": "Xırdalan ş."
     },
     {
-        id: "AZ-AGC",
+        "id": "AZ-AGC",
         "name": "Ağcabədi",
         "field": "1756,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 46,
-        regioncentername: "Ağcabədi ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 46,
+        "regioncentername": "Ağcabədi ş."
     },
     {
-        id: "AZ-AGM",
+        "id": "AZ-AGM",
         "name": "Ağdam",
         "field": "1150,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 128,
-        regioncentername: "Ağdam ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 128,
+        "regioncentername": "Ağdam ş."
     },
     {
-        id: "AZ-AGS",
+        "id": "AZ-AGS",
         "name": "Ağdaş",
         "field": "1048,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 76,
-        regioncentername: "Ağdaş ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 76,
+        "regioncentername": "Ağdaş ş."
     },
     {
-        id: "AZ-AGA",
+        "id": "AZ-AGA",
         "name": "Ağstafa",
         "field": "1503,7",
-        date: 1939,
-        citynum: 1,
-        regionnum: 28,
-        regioncentername: "Ağstafa ş."
+        "date": 1939,
+        "citynum": 1,
+        "regionnum": 28,
+        "regioncentername": "Ağstafa ş."
     },
     {
-        id: "AZ-AGU",
+        "id": "AZ-AGU",
         "name": "Ağsu",
         "field": "1020,1",
-        date: 1943,
-        citynum: 1,
-        regionnum: 78,
-        regioncentername: "Ağsu ş."
+        "date": 1943,
+        "citynum": 1,
+        "regionnum": 78,
+        "regioncentername": "Ağsu ş."
     },
     {
-        id: "AZ-AST",
+        "id": "AZ-AST",
         "name": "Astara",
         "field": "616,4",
-        date: 1930,
-        citynum: 1,
-        regionnum: 90,
-        regioncentername: "Astara ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 90,
+        "regioncentername": "Astara ş."
     },
     {
-        id: "AZ-BAB",
+        "id": "AZ-BAB",
         "name": "Babək",
         "field": "900,0",
-        date: 1978,
-        citynum: 1,
-        regionnum: 39,
-        regioncentername: "Babək ş."
+        "date": 1978,
+        "citynum": 1,
+        "regionnum": 39,
+        "regioncentername": "Babək ş."
     },
     {
-        id: "AZ-BAK",
+        "id": "AZ-BAK",
         "name": "Bakı",
         "field": "2130,0",
-        date: 1916,
-        citynum: 1,
-        regionnum: 12,
-        regioncentername: "Bakı ş."
+        "date": 1916,
+        "citynum": 1,
+        "regionnum": 12,
+        "regioncentername": "Bakı ş."
     },
     {
-        id: "AZ-BAL",
+        "id": "AZ-BAL",
         "name": "Balakən",
         "field": "920,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 72,
-        regioncentername: "Balakən ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 72,
+        "regioncentername": "Balakən ş."
     },
     {
-        id: "AZ-BAR",
+        "id": "AZ-BAR",
         "name": "Bərdə",
         "field": "957,0",
-        date: 1939,
-        citynum: 1,
-        regionnum: 92,
-        regioncentername: "Bərdə ş."
+        "date": 1939,
+        "citynum": 1,
+        "regionnum": 92,
+        "regioncentername": "Bərdə ş."
     },
     {
-        id: "AZ-BEY",
+        "id": "AZ-BEY",
         "name": "Beyləqan",
         "field": "856,0",
-        date: 1943,
-        citynum: 1,
-        regionnum: 33,
-        regioncentername: "Beyləqan ş."
+        "date": 1943,
+        "citynum": 1,
+        "regionnum": 33,
+        "regioncentername": "Beyləqan ş."
     },
     {
-        id: "AZ-BIL",
+        "id": "AZ-BIL",
         "name": "Biləsuvar",
         "field": "1404,0",
-        date: 1943,
-        citynum: 1,
-        regionnum: 42,
-        regioncentername: "Biləsuvar ş."
+        "date": 1943,
+        "citynum": 1,
+        "regionnum": 42,
+        "regioncentername": "Biləsuvar ş."
     },
     {
-        id: "AZ-CAB",
+        "id": "AZ-CAB",
         "name": "Cəbrayıl",
         "field": "1050,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 98,
-        regioncentername: "Cəbrayıl ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 98,
+        "regioncentername": "Cəbrayıl ş."
     },
     {
-        id: "AZ-CAL",
+        "id": "AZ-CAL",
         "name": "Cəlilabad",
         "field": "1441,0",
-        date: 1939,
-        citynum: 1,
-        regionnum: 88,
-        regioncentername: "Cəlilabad ş."
+        "date": 1939,
+        "citynum": 1,
+        "regionnum": 88,
+        "regioncentername": "Cəlilabad ş."
     },
     {
-        id: "AZ-DAS",
+        "id": "AZ-DAS",
         "name": "Daşkəsən",
         "field": "1050,0",
-        date: 1939,
-        citynum: 1,
-        regionnum: 33,
-        regioncentername: "Daşkəsən ş."
+        "date": 1939,
+        "citynum": 1,
+        "regionnum": 33,
+        "regioncentername": "Daşkəsən ş."
     },
     {
-        id: "AZ-FUZ",
+        "id": "AZ-FUZ",
         "name": "Füzuli",
         "field": "1156,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 80,
-        regioncentername: "Füzuli ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 80,
+        "regioncentername": "Füzuli ş."
     },
     {
-        id: "AZ-GAD",
+        "id": "AZ-GAD",
         "name": "Gədəbəy",
         "field": "1229,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 69,
-        regioncentername: "Gədəbəy ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 69,
+        "regioncentername": "Gədəbəy ş."
     },
     {
-        id: "AZ-GOR",
+        "id": "AZ-GOR",
         "name": "Goranboy",
         "field": "1200,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 92,
-        regioncentername: "Goranboy ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 92,
+        "regioncentername": "Goranboy ş."
     },
     {
-        id: "AZ-GOY",
+        "id": "AZ-GOY",
         "name": "Göyçay",
         "field": "740,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 78,
-        regioncentername: "Göyçay ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 78,
+        "regioncentername": "Göyçay ş."
     },
     {
-        id: "AZ-GYG",
+        "id": "AZ-GYG",
         "name": "Göygöl",
         "field": "1003,0",
-        date: 1939,
-        citynum: 1,
-        regionnum: 36,
-        regioncentername: "Göygöl ş."
+        "date": 1939,
+        "citynum": 1,
+        "regionnum": 36,
+        "regioncentername": "Göygöl ş."
     },
     {
-        id: "AZ-HAC",
+        "id": "AZ-HAC",
         "name": "Hacıqabul",
         "field": "1639,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 36,
-        regioncentername: "Hacıqabul ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 36,
+        "regioncentername": "Hacıqabul ş."
     },
     {
-        id: "AZ-IMI",
+        "id": "AZ-IMI",
         "name": "İmişli",
         "field": "1822,0",
-        date: 1939,
-        citynum: 1,
-        regionnum: 46,
-        regioncentername: "İmişli ş."
+        "date": 1939,
+        "citynum": 1,
+        "regionnum": 46,
+        "regioncentername": "İmişli ş."
     },
     {
-        id: "AZ-ISM",
+        "id": "AZ-ISM",
         "name": "İsmayıllı",
         "field": "2074,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 87,
-        regioncentername: "İsmayıllı ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 87,
+        "regioncentername": "İsmayıllı ş."
     },
     {
-        id: "AZ-KAL",
+        "id": "AZ-KAL",
         "name": "Kəlbəcər",
         "field": "3054,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 83,
-        regioncentername: "Kəlbəcər ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 83,
+        "regioncentername": "Kəlbəcər ş."
     },
     {
-        id: "AZ-KAN",
+        "id": "AZ-KAN",
         "name": "Kürdəmir",
         "field": "1631,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 80,
-        regioncentername: "Kürdəmir ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 80,
+        "regioncentername": "Kürdəmir ş."
     },
     {
-        id: "AZ-KAR",
+        "id": "AZ-KAR",
         "name": "Kərx",
         "field": "1026,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 31,
-        regioncentername: "Kərx ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 31,
+        "regioncentername": "Kərx ş."
     },
     {
-        id: "AZ-KUR",
+        "id": "AZ-KUR",
         "name": "Qubadlı",
         "field": "802,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 42,
-        regioncentername: "Qubadlı ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 42,
+        "regioncentername": "Qubadlı ş."
     },
     {
-        id: "AZ-LAC",
+        "id": "AZ-LAC",
         "name": "Laçın",
         "field": "1835,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 52,
-        regioncentername: "Laçın ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 52,
+        "regioncentername": "Laçın ş."
     },
     {
-        id: "AZ-LAN",
+        "id": "AZ-LAN",
         "name": "Lənkəran",
         "field": "1539,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 68,
-        regioncentername: "Lənkəran ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 68,
+        "regioncentername": "Lənkəran ş."
     },
     {
-        id: "AZ-LER",
+        "id": "AZ-LER",
         "name": "Lerik",
         "field": "1084,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 69,
-        regioncentername: "Lerik ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 69,
+        "regioncentername": "Lerik ş."
     },
     {
-        id: "AZ-MAS",
+        "id": "AZ-MAS",
         "name": "Masallı",
         "field": "1219,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 74,
-        regioncentername: "Masallı ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 74,
+        "regioncentername": "Masallı ş."
     },
     {
-        id: "AZ-MING",
+        "id": "AZ-MING",
         "name": "Mingəçevir",
         "field": "130,0",
-        date: 1939,
-        citynum: 1,
-        regionnum: 4,
-        regioncentername: "Mingəçevir ş."
+        "date": 1939,
+        "citynum": 1,
+        "regionnum": 4,
+        "regioncentername": "Mingəçevir ş."
     },
     {
-        id: "AZ-NAX",
+        "id": "AZ-NAX",
         "name": "Naxçıvan",
         "field": "629,0",
-        date: 1924,
-        citynum: 1,
-        regionnum: 30,
-        regioncentername: "Naxçıvan ş."
+        "date": 1924,
+        "citynum": 1,
+        "regionnum": 30,
+        "regioncentername": "Naxçıvan ş."
     },
     {
-        id: "AZ-NEF",
+        "id": "AZ-NEF",
         "name": "Neftçala",
         "field": "1452,0",
-        date: 1942,
-        citynum: 1,
-        regionnum: 38,
-        regioncentername: "Neftçala ş."
+        "date": 1942,
+        "citynum": 1,
+        "regionnum": 38,
+        "regioncentername": "Neftçala ş."
     },
     {
-        id: "AZ-OGU",
+        "id": "AZ-OGU",
         "name": "Oğuz",
         "field": "1215,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 46,
-        regioncentername: "Oğuz ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 46,
+        "regioncentername": "Oğuz ş."
     },
     {
-        id: "AZ-ORD",
+        "id": "AZ-ORD",
         "name": "Ordubad",
         "field": "972,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 46,
-        regioncentername: "Ordubad ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 46,
+        "regioncentername": "Ordubad ş."
     },
     {
-        id: "AZ-QAB",
+        "id": "AZ-QAB",
         "name": "Qəbələ",
         "field": "1548,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 51,
-        regioncentername: "Qəbələ ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 51,
+        "regioncentername": "Qəbələ ş."
     },
     {
-        id: "AZ-QAX",
+        "id": "AZ-QAX",
         "name": "Qax",
         "field": "1495,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 49,
-        regioncentername: "Qax ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 49,
+        "regioncentername": "Qax ş."
     },
     {
-        id: "AZ-QAZ",
+        "id": "AZ-QAZ",
         "name": "Qazax",
         "field": "1586,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 42,
-        regioncentername: "Qazax ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 42,
+        "regioncentername": "Qazax ş."
     },
     {
-        id: "AZ-QBA",
+        "id": "AZ-QBA",
         "name": "Quba",
         "field": "2580,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 81,
-        regioncentername: "Quba ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 81,
+        "regioncentername": "Quba ş."
     },
     {
-        id: "AZ-QBI",
+        "id": "AZ-QBI",
         "name": "Qubadlı",
         "field": "802,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 42,
-        regioncentername: "Qubadlı ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 42,
+        "regioncentername": "Qubadlı ş."
     },
     {
-        id: "AZ-QUS",
+        "id": "AZ-QUS",
         "name": "Qusar",
         "field": "1542,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 48,
-        regioncentername: "Qusar ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 48,
+        "regioncentername": "Qusar ş."
     },
     {
-        id: "AZ-SAB",
+        "id": "AZ-SAB",
         "name": "Sabirabad",
         "field": "1469,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 56,
-        regioncentername: "Sabirabad ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 56,
+        "regioncentername": "Sabirabad ş."
     },
     {
-        id: "AZ-SAK",
+        "id": "AZ-SAK",
         "name": "Şəki",
         "field": "2270,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 78,
-        regioncentername: "Şəki ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 78,
+        "regioncentername": "Şəki ş."
     },
     {
-        id: "AZ-SAL",
+        "id": "AZ-SAL",
         "name": "Salyan",
         "field": "1793,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 43,
-        regioncentername: "Salyan ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 43,
+        "regioncentername": "Salyan ş."
     },
     {
-        id: "AZ-SAM",
+        "id": "AZ-SAM",
         "name": "Şamaxı",
         "field": "1611,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 52,
-        regioncentername: "Şamaxı ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 52,
+        "regioncentername": "Şamaxı ş."
     },
     {
-        id: "AZ-SAR",
+        "id": "AZ-SAR",
         "name": "Şirvan",
         "field": "30,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 8,
-        regioncentername: "Şirvan ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 8,
+        "regioncentername": "Şirvan ş."
     },
     {
-        id: "AZ-SAT",
+        "id": "AZ-SAT",
         "name": "Saatlı",
         "field": "1171,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 40,
-        regioncentername: "Saatlı ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 40,
+        "regioncentername": "Saatlı ş."
     },
     {
-        id: "AZ-SBN",
+        "id": "AZ-SBN",
         "name": "Şabran",
         "field": "1377,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 41,
-        regioncentername: "Şabran ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 41,
+        "regioncentername": "Şabran ş."
     },
     {
-        id: "AZ-SIY",
+        "id": "AZ-SIY",
         "name": "Siyəzən",
         "field": "709,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 23,
-        regioncentername: "Siyəzən ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 23,
+        "regioncentername": "Siyəzən ş."
     },
     {
-        id: "AZ-SKR",
+        "id": "AZ-SKR",
         "name": "Şəmkir",
         "field": "1639,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 57,
-        regioncentername: "Şəmkir ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 57,
+        "regioncentername": "Şəmkir ş."
     },
     {
-        id: "AZ-SM X",
+        "id": "AZ-SM X",
         "name": "Şəmkir",
         "field": "1639,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 57,
-        regioncentername: "Şəmkir ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 57,
+        "regioncentername": "Şəmkir ş."
     },
     {
-        id: "AZ-SMI",
+        "id": "AZ-SMI",
         "name": "Şərur",
         "field": "858,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 41,
-        regioncentername: "Şərur ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 41,
+        "regioncentername": "Şərur ş."
     },
     {
-        id: "AZ-SMS",
+        "id": "AZ-SMS",
         "name": "Şəmkir",
         "field": "1639,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 57,
-        regioncentername: "Şəmkir ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 57,
+        "regioncentername": "Şəmkir ş."
     },
     {
-        id: "AZ-SR",
+        "id": "AZ-SR",
         "name": "Şərur",
         "field": "858,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 41,
-        regioncentername: "Şərur ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 41,
+        "regioncentername": "Şərur ş."
     },
     {
-        id: "AZ-SUS",
+        "id": "AZ-SUS",
         "name": "Şuşa",
         "field": "389,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 13,
-        regioncentername: "Şuşa ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 13,
+        "regioncentername": "Şuşa ş."
     },
     {
-        id: "AZ-TAR",
+        "id": "AZ-TAR",
         "name": "Tərtər",
         "field": "955,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 56,
-        regioncentername: "Tərtər ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 56,
+        "regioncentername": "Tərtər ş."
     },
     {
-        id: "AZ-TOV",
+        "id": "AZ-TOV",
         "name": "Tovuz",
         "field": "1917,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 60,
-        regioncentername: "Tovuz ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 60,
+        "regioncentername": "Tovuz ş."
     },
     {
-        id: "AZ-UCA",
+        "id": "AZ-UCA",
         "name": "Ucar",
         "field": "871,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 42,
-        regioncentername: "Ucar ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 42,
+        "regioncentername": "Ucar ş."
     },
     {
-        id: "AZ-XAC",
+        "id": "AZ-XAC",
         "name": "Xaçmaz",
         "field": "1053,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 57,
-        regioncentername: "Xaçmaz ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 57,
+        "regioncentername": "Xaçmaz ş."
     },
     {
-        id: "AZ-XAN",
+        "id": "AZ-XAN",
         "name": "Xanlar",
         "field": "1003,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 36,
-        regioncentername: "Xanlar ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 36,
+        "regioncentername": "Xanlar ş."
     },
     {
-        id: "AZ-XCI",
+        "id": "AZ-XCI",
         "name": "Xocavənd",
         "field": "1458,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 37,
-        regioncentername: "Xocavənd ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 37,
+        "regioncentername": "Xocavənd ş."
     },
     {
-        id: "AZ-XIZ",
+        "id": "AZ-XIZ",
         "name": "Xızı",
         "field": "1850,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 12,
-        regioncentername: "Xızı ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 12,
+        "regioncentername": "Xızı ş."
     },
     {
-        id: "AZ-XVD",
+        "id": "AZ-XVD",
         "name": "Xocalı",
         "field": "940,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 25,
-        regioncentername: "Xocalı ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 25,
+        "regioncentername": "Xocalı ş."
     },
     {
-        id: "AZ-YAR",
+        "id": "AZ-YAR",
         "name": "Yardımlı",
         "field": "669,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 34,
-        regioncentername: "Yardımlı ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 34,
+        "regioncentername": "Yardımlı ş."
     },
     {
-        id: "AZ-YEV",
+        "id": "AZ-YEV",
         "name": "Yevlax",
         "field": "1540,0",
-        date: 1939,
-        citynum: 1,
-        regionnum: 56,
-        regioncentername: "Yevlax ş."
+        "date": 1939,
+        "citynum": 1,
+        "regionnum": 56,
+        "regioncentername": "Yevlax ş."
     },
     {
-        id: "AZ-ZAN",
+        "id": "AZ-ZAN",
         "name": "Zaqatala",
         "field": "1348,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 54,
-        regioncentername: "Zaqatala ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 54,
+        "regioncentername": "Zaqatala ş."
     },
     {
-        id: "AZ-ZAR",
+        "id": "AZ-ZAR",
         "name": "Zərdab",
         "field": "856,0",
-        date: 1930,
-        citynum: 1,
-        regionnum: 32,
-        regioncentername: "Zərdab ş."
+        "date": 1930,
+        "citynum": 1,
+        "regionnum": 32,
+        "regioncentername": "Zərdab ş."
     }
 ]
