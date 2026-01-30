@@ -1,0 +1,24 @@
+/* img {
+    width: 100%;
+    height: 100dvh;
+}
+
+svg path {
+    fill: gray;
+    stroke-width: 3rem;
+}
+
+path:hover {
+    fill: green;
+} */
+
+div {
+    width: 100% !important;
+    height: 50dvh !important;
+    visibility: visible !important;
+}
+
+div #chartdiv {
+    height: 100vh;
+    width: 100%;
+}
