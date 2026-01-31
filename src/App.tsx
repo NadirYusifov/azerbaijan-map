@@ -8,7 +8,7 @@ export default function App() {
   return (
     <section>
       {/* <img className="land" src={Azerbaijan} alt="Azerbaijan Map" /> */}
-      <AzerbaijanMap/>
+      <AzerbaijanMap />
     </section>
   );
 }
