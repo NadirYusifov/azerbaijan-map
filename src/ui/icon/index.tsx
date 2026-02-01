@@ -11,7 +11,6 @@ export default function GitHub() {
                     </clipPath>
                 </defs>
             </svg>
-
         </div>
     )
 }
