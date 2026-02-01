@@ -1,49 +1,22 @@
+import type { RegionData } from "../../data"
 
-import type { RegionData } from "../../data";
-import { Button } from "../ui/button";
-import { Drawer, DrawerClose, DrawerContent, DrawerDescription, DrawerFooter, DrawerHeader, DrawerTitle, DrawerTrigger } from "../ui/drawer";
-
-interface InfoProps {
-    region: RegionData | null;
+interface DataProps {
+    region: RegionData | null
 }
 
-export default function Info({ region }: InfoProps) {
+export default function Info({ region }: DataProps) {
     return (
-        <Drawer>
-            <DrawerTrigger asChild>
-                <Button variant="outline">Region Məlumatları</Button>
-            </DrawerTrigger>
-            <DrawerContent>
-                <DrawerHeader>
-                    <DrawerTitle>{region?.name || "Region seçin"}</DrawerTitle>
-                    <DrawerDescription>Rayon haqqında ətraflı məlumat</DrawerDescription>
-                </DrawerHeader>
-                {region && (
-                    <div className="p-4 space-y-4">
-                        <div className="flex justify-between items-center py-2 border-b">
-                            <span className="font-medium">Sahə:</span>
-                            <span>{region.field} km²</span>
-                        </div>
-                        <div className="flex justify-between items-center py-2 border-b">
-                            <span className="font-medium">Şəhərlərin sayı:</span>
-                            <span>{region.citynum}</span>
-                        </div>
-                        <div className="flex justify-between items-center py-2 border-b">
-                            <span className="font-medium">Kənd sayı:</span>
-                            <span>{region.regionnum}</span>
-                        </div>
-                        <div className="flex justify-between items-center py-2 border-b">
-                            <span className="font-medium">Mərkəz:</span>
-                            <span>{region.regioncentername}</span>
-                        </div>
-                    </div>
-                )}
-                <DrawerFooter>
-                    <DrawerClose>
-                        <Button variant="outline">Bağla</Button>
-                    </DrawerClose>
-                </DrawerFooter>
-            </DrawerContent>
-        </Drawer>
+        <div className="pt-5">
+            {region ?
+                <article className="space-y-1">
+
+                    <h1 className="font-bold text-3xl">{region?.name || "Məlumat yoxdur"}</h1>
+                    <p className="map-content"><span>Sahə:</span> {region?.field || "Məlumat yoxdur"}</p>
+                    <p className="map-content"><span>Yaranma tarixi:</span> {region?.date || "Məlumat yoxdur"}</p>
+                    <p className="map-content"><span>Kənd sayı:</span> {region?.regionnum || "Məlumat yoxdur"}</p>
+                    <p className="map-content"><span>Kənd şəhər mərkəzi:</span> {region?.regioncentername || "Məlumat yoxdur"}</p>
+                </article> : <h1 className="text-3xl">Məlumat almaq üçün xəritə üzərindən bir rayon və yaxud bir şəhər seçin.</h1>
+            }
+        </div>
     )
 }
