@@ -1,18 +1,18 @@
 export interface RegionData {
   id: string;
   name: string | undefined;
-  field: string | undefined;
-  date: string | undefined;
-  citynum: string | undefined;
-  regionnum: string | undefined;
-  regioncentername: string | undefined;
+  field?: string | undefined;
+  date?: string | undefined;
+  citynum?: string | undefined;
+  regionnum?: string | undefined;
+  regioncentername?: string | undefined;
 }
 
 export const regionData: RegionData[] = [
   {
     "id": "AZ-ABS",
     "name": "Abşeron",
-    "field": "1361,4",
+    "field": "1361,4 km²",
     "date": "1963",
     "citynum": "1",
     "regionnum": "7",
@@ -21,7 +21,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-AGC",
     "name": "Ağcabədi",
-    "field": "1756,0",
+    "field": "1756,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "46",
@@ -30,7 +30,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-AGM",
     "name": "Ağdam",
-    "field": "1150,0",
+    "field": "1150,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "128",
@@ -39,7 +39,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-AGS",
     "name": "Ağdaş",
-    "field": "1048,0",
+    "field": "1048,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "76",
@@ -48,7 +48,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-AGA",
     "name": "Ağstafa",
-    "field": "1503,7",
+    "field": "1503,7 km²",
     "date": "1939",
     "citynum": "1",
     "regionnum": "28",
@@ -57,7 +57,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-AGU",
     "name": "Ağsu",
-    "field": "1020,1",
+    "field": "1020,1 km²",
     "date": "1943",
     "citynum": "1",
     "regionnum": "78",
@@ -66,7 +66,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-AST",
     "name": "Astara",
-    "field": "616,4",
+    "field": "616,4 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "90",
@@ -75,7 +75,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-BAB",
     "name": "Babək",
-    "field": "900,0",
+    "field": "900,0 km²",
     "date": "1978",
     "citynum": "1",
     "regionnum": "39",
@@ -84,7 +84,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-BA",
     "name": "Bakı",
-    "field": "2140,0",
+    "field": "2140,0 km²",
     "date": "",
     "citynum": "1",
     "regionnum": "12",
@@ -93,7 +93,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-BAL",
     "name": "Balakən",
-    "field": "923,0",
+    "field": "923,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "58",
@@ -102,7 +102,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-BAR",
     "name": "Bərdə",
-    "field": "957,0",
+    "field": "957,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "109",
@@ -111,7 +111,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-BEY",
     "name": "Beyləqan",
-    "field": "1131,1",
+    "field": "1131,1 km²",
     "date": "1939",
     "citynum": "1",
     "regionnum": "33",
@@ -120,17 +120,16 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-BIL",
     "name": "Biləsuvar",
-    "field": "1397,0",
+    "field": "1397,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "25",
     "regioncentername": "Biləsuvar ş.",
   },
-
   {
     "id": "AZ-CAB",
     "name": "Cəbrayıl",
-    "field": "1049,8",
+    "field": "1049,8 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "91",
@@ -139,7 +138,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-CAL",
     "name": "Cəlilabad",
-    "field": "1441,4",
+    "field": "1441,4 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "117",
@@ -148,17 +147,16 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-CUL",
     "name": "Culfa",
-    "field": "995,0",
+    "field": "995,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "24",
     "regioncentername": "Culfa ş.",
   },
-
   {
     "id": "AZ-DAS",
     "name": "Daşkəsən",
-    "field": "1046,9",
+    "field": "1046,9 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "44",
@@ -167,34 +165,43 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-FUZ",
     "name": "Füzuli",
-    "field": "1390,0",
+    "field": "1390,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "74",
     "regioncentername": "Füzuli ş.",
   },
-  // {
-  //   "id": "AZ-GA",
-
-  //   "field": "",
-  //   "date": "1",
-  //   "citynum": "1",
-  //   "regionnum": "1",
-  //   "regioncentername": "",
-  // },
+  {
+    "id": "AZ-GA",
+    "name": "Gəncə",
+    "field": "110 km²",
+    "date": "b.e.ə V əsr",
+    "citynum": "",
+    "regionnum": "",
+    "regioncentername": "",
+  },
   {
     "id": "AZ-GAD",
     "name": "Gədəbəy",
-    "field": "1290,0",
+    "field": "1290,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "108",
     "regioncentername": "Gədəbəy ş.",
   },
   {
+    "id": "AZ-GR",
+    "name": "Başkənd (Gədəbəy)",
+    "field": "40 km²",
+    "date": "1845",
+    "citynum": "",
+    "regionnum": "",
+    "regioncentername": "",
+  },
+  {
     "id": "AZ-GOR",
     "name": "Goranboy",
-    "field": "1791,0",
+    "field": "1791,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "81",
@@ -203,7 +210,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-GOY",
     "name": "Göyçay",
-    "field": "739,0",
+    "field": "739,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "54",
@@ -212,17 +219,16 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-GYG",
     "name": "Göygöl",
-    "field": "1030,0",
+    "field": "1030,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "41",
     "regioncentername": "Göygöl ş.",
   },
-
   {
     "id": "AZ-HAC",
     "name": "Hacıqabul",
-    "field": "1640,0",
+    "field": "1640,0 km²",
     "date": "1939",
     "citynum": "1",
     "regionnum": "27",
@@ -231,7 +237,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-XCI",
     "name": "Xocalı",
-    "field": "936,0",
+    "field": "936,0 km²",
     "date": "1991",
     "citynum": "1",
     "regionnum": "50",
@@ -240,7 +246,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-IMI",
     "name": "İmişli",
-    "field": "1821,0",
+    "field": "1821,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "49",
@@ -249,17 +255,16 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-ISM",
     "name": "İsmayıllı",
-    "field": "2064,0",
+    "field": "2064,0 km²",
     "date": "1931",
     "citynum": "1",
     "regionnum": "106",
     "regioncentername": "İsmayıllı ş.",
   },
-
   {
     "id": "AZ-KAL",
     "name": "Kəlbəcər",
-    "field": "3054,0",
+    "field": "3054,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "145",
@@ -268,7 +273,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-KAN",
     "name": "Kəngərli",
-    "field": "680,0",
+    "field": "680,0 km²",
     "date": "2004",
     "citynum": "1",
     "regionnum": "10",
@@ -277,17 +282,16 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-KUR",
     "name": "Kürdəmir",
-    "field": "1631,5",
+    "field": "1631,5 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "59",
     "regioncentername": "Kürdəmir ş.",
   },
-
   {
     "id": "AZ-LAC",
     "name": "Laçın",
-    "field": "1835,0",
+    "field": "1835,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "123",
@@ -296,64 +300,79 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-LAN",
     "name": "Lənkəran",
-    "field": "1539,4",
+    "field": "1539,4 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "84",
     "regioncentername": "Lənkəran ş.",
   },
   {
+    "id": "AZ-LA",
+    "name": "Lənkəran ş.",
+    "field": "",
+    "date": "",
+    "citynum": "",
+    "regionnum": "",
+    "regioncentername": "",
+  },
+  {
     "id": "AZ-LER",
     "name": "Lerik",
-    "field": "1083,6",
+    "field": "1083,6 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "161",
     "regioncentername": "Lerik qəs.",
   },
-
   {
     "id": "AZ-MAS",
     "name": "Masallı",
-    "field": "721,0",
+    "field": "721,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "106",
     "regioncentername": "Massalı ş.",
   },
-  // {
-  //   "id": "AZ-MI",
-
-  //   "field": "",
-  //   "date": "1",
-  //   "citynum": "1",
-  //   "regionnum": "1",
-  //   "regioncentername": "",
-  // },
-
-  // {
-  //   "id": "AZ-NA",
-
-  //   "field": "",
-  //   "date": "1",
-  //   "citynum": "1",
-  //   "regionnum": "1",
-  //   "regioncentername": "",
-  // },
+  {
+    "id": "AZ-MI",
+    "name": "Mingəçevir",
+    "field": "0,14 km²",
+    "date": "1948",
+    "citynum": "",
+    "regionnum": "",
+    "regioncentername": "",
+  },
+  {
+    "id": "AZ-NA",
+    "name": "Naftalan şəhəri",
+    "field": "0.04 km²",
+    "date": "1967",
+    "citynum": "1",
+    "regionnum": "2",
+    "regioncentername": "",
+  },
   {
     "id": "AZ-NEF",
     "name": "Neftçala",
-    "field": "1451,7",
+    "field": "1451,7 km²",
     "date": "1940",
     "citynum": "1",
     "regionnum": "47",
     "regioncentername": "Neftçala ş.",
   },
-
+  {
+    "id": "AZ-NV",
+    "name": "Naxçıvan",
+    "field": "191,57 km²",
+    "date": "1924",
+    "citynum": "",
+    "regionnum": "",
+    "regioncentername": "",
+  },
   {
     "id": "AZ-OG",
     "name": "Oğuz",
-    "field": "1220,0",
+    "field": "1220,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "33",
@@ -362,17 +381,16 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-OGU",
     "name": "Ordubad",
-    "field": "972,0",
+    "field": "972,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "43",
     "regioncentername": "Ordubad ş.",
   },
-
   {
     "id": "AZ-QAB",
     "name": "Qəbələ",
-    "field": "1548,6",
+    "field": "1548,6 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "61",
@@ -381,7 +399,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-QAX",
     "name": "Qax",
-    "field": "1493,8",
+    "field": "1493,8 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "58",
@@ -390,7 +408,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-QAZ",
     "name": "Qazax",
-    "field": "699,0",
+    "field": "699,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "34",
@@ -399,7 +417,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-QBA",
     "name": "Qubadlı",
-    "field": "800",
+    "field": "800 km²",
     "date": "1933",
     "citynum": "1",
     "regionnum": "95",
@@ -408,7 +426,7 @@ export const regionData: RegionData[] = [
   // {
   //   "id": "AZ-QBI",
 
-  //   "field": "",
+  //   "field": " km²", 
   //   "date": "1",
   //   "citynum": "1",
   //   "regionnum": "1",
@@ -417,7 +435,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-QOB",
     "name": "Qobustan",
-    "field": "1369,4",
+    "field": "1369,4 km²",
     "date": "1990",
     "citynum": "1",
     "regionnum": "31",
@@ -426,7 +444,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-QB",
     "name": "Quba",
-    "field": "2574,0",
+    "field": "2574,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "152",
@@ -435,7 +453,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-QUS",
     "name": "Qusar",
-    "field": "1542,0",
+    "field": "1542,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "90",
@@ -444,16 +462,16 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-SBN",
     "name": "Şabran",
-    "field": "",
-    "date": "1",
+    "field": "1,090 km²",
+    "date": "1930",
     "citynum": "1",
-    "regionnum": "1",
-    "regioncentername": "",
+    "regionnum": "68",
+    "regioncentername": "Şabran ş.",
   },
   {
     "id": "AZ-SAD",
     "name": "Sədərək",
-    "field": "151,0",
+    "field": "151,0 km²",
     "date": "1990",
     "citynum": "1",
     "regionnum": "3",
@@ -462,7 +480,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-SKR",
     "name": "Şəmkir",
-    "field": "1656,8",
+    "field": "1656,8 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "56",
@@ -471,16 +489,25 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-SAK",
     "name": "Şəki",
-    "field": "2432,8",
+    "field": "2432,8 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "71",
     "regioncentername": "Şəki ş.",
   },
   {
+    "id": "AZ-SA",
+    "name": "Şəki şəhəri",
+    "field": "",
+    "date": "",
+    "citynum": "",
+    "regionnum": "",
+    "regioncentername": "",
+  },
+  {
     "id": "AZ-SAL",
     "name": "Salyan",
-    "field": "1790,0",
+    "field": "1790,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "42",
@@ -489,7 +516,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-SAB",
     "name": "Sabirabad",
-    "field": "1469,6",
+    "field": "1469,6 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "74",
@@ -498,7 +525,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-SMI",
     "name": "Şamaxı",
-    "field": "1610,0",
+    "field": "1610,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "57",
@@ -507,16 +534,16 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-SIY",
     "name": "Siyəzən",
-    "field": "",
-    "date": "1",
+    "field": "703.4 km²",
+    "date": "1940",
     "citynum": "1",
-    "regionnum": "1",
-    "regioncentername": "",
+    "regionnum": "32",
+    "regioncentername": "Siyəzən ş.",
   },
   {
     "id": "AZ-SAT",
     "name": "Saatlı",
-    "field": "1180,5",
+    "field": "1180,5 km²",
     "date": "1943",
     "citynum": "1",
     "regionnum": "43",
@@ -525,7 +552,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-SMX",
     "name": "Samux",
-    "field": "1450",
+    "field": "1450 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "31",
@@ -534,7 +561,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-SUS",
     "name": "Şuşa",
-    "field": "29,0",
+    "field": "29,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "29",
@@ -543,7 +570,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-SAH",
     "name": "Şahbuz",
-    "field": "917,0",
+    "field": "917,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "23",
@@ -552,7 +579,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-SAR",
     "name": "Şərur",
-    "field": "810,0",
+    "field": "810,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "66",
@@ -561,7 +588,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-TAR",
     "name": "Tərtər",
-    "field": "957,0",
+    "field": "957,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "77",
@@ -570,7 +597,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-TOV",
     "name": "Tovuz",
-    "field": "1903,0",
+    "field": "1903,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "102",
@@ -579,7 +606,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-UCA",
     "name": "Ucar",
-    "field": "853,0",
+    "field": "853,0 km²",
     "date": "1939",
     "citynum": "1",
     "regionnum": "29",
@@ -588,7 +615,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-XAC",
     "name": "Xaçmaz",
-    "field": "1046,0",
+    "field": "1046,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "136",
@@ -598,15 +625,15 @@ export const regionData: RegionData[] = [
   //   "id": "AZ-XAN",
 
   //   "field": "",
-  //   "date": "1",
+  // "date": "1",
   //   "citynum": "1",
   //   "regionnum": "1",
   //   "regioncentername": "",
   // },
   {
     "id": "AZ-XVD",
-    "name": "Xocav'nd",
-    "field": "1458,0",
+    "name": "Xocavənd",
+    "field": "1458,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "84",
@@ -615,17 +642,16 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-XIZ",
     "name": "Xızı",
-    "field": "1853,0",
+    "field": "1853,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "24",
     "regioncentername": "Xızı ş.",
   },
-
   {
     "id": "AZ-YAR",
     "name": "Yardımlı",
-    "field": "667,2",
+    "field": "667,2 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "90",
@@ -634,16 +660,25 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-YEV",
     "name": "Yevlax",
-    "field": "1540,0",
+    "field": "1540,0 km²",
     "date": "1935",
     "citynum": "1",
     "regionnum": "48",
     "regioncentername": "Yevlax ş.",
   },
   {
+    "id": "AZ-YE",
+    "name": "Yevlax şəhəri",
+    "field": "",
+    "date": "",
+    "citynum": "",
+    "regionnum": "",
+    "regioncentername": "",
+  },
+  {
     "id": "AZ-ZAN",
     "name": "Zəngilan",
-    "field": "707,0",
+    "field": "707,0 km²",
     "date": "1935",
     "citynum": "1",
     "regionnum": "40",
@@ -652,7 +687,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-ZAQ",
     "name": "Zaqatala",
-    "field": "1348,0",
+    "field": "1348,0 km²",
     "date": "1930",
     "citynum": "1",
     "regionnum": "60",
@@ -661,7 +696,7 @@ export const regionData: RegionData[] = [
   {
     "id": "AZ-ZAR",
     "name": "Zərdab",
-    "field": "855,6",
+    "field": "855,6 km²",
     "date": "1935",
     "citynum": "1",
     "regionnum": "40",
