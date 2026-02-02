@@ -19,8 +19,11 @@ export default function About() {
                     <p className="about-referance font-bold">
                         Referanslar:
                     </p>
-                    <ul className="">
-                        <li>Rayon məlumatları: <Link className="text-sky-500" to={"https://republic.preslib.az/az_a1.html"}>https://republic.preslib.az/az_a1.html</Link></li>
+                    <ul>
+                        <li>Rayon məlumatları: <Link className="text-sky-500 underline" to={"https://republic.preslib.az/az_a1.html"}>https://republic.preslib.az/az_a1.html</Link></li>
+                        <li>Gədəbəy (Başkənd): <Link className="text-sky-500 underline" to={"https://az.wikipedia.org/wiki/Ba%C5%9Fk%C9%99nd_(G%C9%99d%C9%99b%C9%99y)"}>https://az.wikipedia.org/wiki/Ba%C5%9Fk%C9%99nd_(G%C9%99d%C9%99b%C9%99y)</Link></li>
+                        <li>Naxçıvan (şəhər): <Link className="text-sky-500 underline" to={"https://az.wikipedia.org/wiki/Nax%C3%A7%C4%B1van_(%C5%9F%C9%99h%C9%99r)"}>https://az.wikipedia.org/wiki/Nax%C3%A7%C4%B1van_(%C5%9F%C9%99h%C9%99r)</Link></li>
+                        <li>Rayon məlumatları: <Link className="text-sky-500 underline" to={"https://files.preslib.az/projects/azerbaijan/gl2.pdf#page138"}>https://files.preslib.az/projects/azerbaijan/gl2.pdf#page138</Link></li>
                     </ul>
                 </div>
             </div>
