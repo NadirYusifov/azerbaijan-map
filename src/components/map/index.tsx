@@ -26,7 +26,7 @@ export default function AzerbaijanMap() {
 
     const polygonTemplate = polygonSeries.mapPolygons.template;
     polygonTemplate.tooltipText = "{name}";
-    polygonTemplate.fill = am4core.color("#4285F4");
+    polygonTemplate.fill = am4core.color("#00a6f4");
 
     polygonTemplate.events.on("hit", function (e) {
       e.target.series.chart.zoomToMapObject(e.target)
@@ -47,7 +47,7 @@ export default function AzerbaijanMap() {
     map.zoomControl = new am4maps.ZoomControl()
 
     const hoverstate = polygonTemplate.states.create("hover");
-    hoverstate.properties.fill = am4core.color("#FF0000");
+    hoverstate.properties.fill = am4core.color("#fb2c36");
 
     return (() => {
       map.dispose()
