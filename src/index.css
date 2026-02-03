@@ -10,7 +10,7 @@
 }
 
 .map-content {
-    @apply text-xl
+    @apply text-[1rem]
 }
 
 span {

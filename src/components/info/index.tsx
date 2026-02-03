@@ -9,12 +9,11 @@ export default function Info({ region }: DataProps) {
         <div className="pt-5">
             {region ?
                 <article className="space-y-1">
-
-                    <h1 className="font-bold text-3xl">{region?.name || "Məlumat yoxdur və ya tapılmadı"}</h1>
-                    <p className="map-content"><span>Sahə:</span> {region.field || "Məlumat yoxdur və ya tapılmadı"}</p>
-                    <p className="map-content"><span>Yaranma tarixi:</span> {region.date || "Məlumat yoxdur və ya tapılmadı"}</p>
-                    <p className="map-content"><span>Kənd sayı:</span> {region.regionnum || "Məlumat yoxdur və ya tapılmadı"}</p>
-                    <p className="map-content"><span>Kənd şəhər mərkəzi:</span> {region.regioncentername || "Məlumat yoxdur və ya tapılmadı"}</p>
+                    <h1 className="font-bold text-xl md:text-2xl lg:text-3xl">{region?.name || "Məlumat yoxdur və ya tapılmadı"}</h1>
+                    <p className="map-content md:text-lg lg:text-xl"><span>Sahə:</span> {region.field || "Məlumat yoxdur və ya tapılmadı"}</p>
+                    <p className="map-content md:text-lg lg:text-xl"><span>Yaranma tarixi:</span> {region.date || "Məlumat yoxdur və ya tapılmadı"}</p>
+                    <p className="map-content md:text-lg lg:text-xl"><span>Kənd sayı:</span> {region.regionnum || "Məlumat yoxdur və ya tapılmadı"}</p>
+                    <p className="map-content md:text-lg lg:text-xl"><span>Kənd şəhər mərkəzi:</span> {region.regioncentername || "Məlumat yoxdur və ya tapılmadı"}</p>
                 </article> : <h1 className="text-3xl">Məlumat almaq üçün xəritə üzərindən bir rayon və yaxud bir şəhər seçin.</h1>
             }
         </div>
