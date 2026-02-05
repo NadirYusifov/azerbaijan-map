@@ -17,7 +17,6 @@ export default function AzerbaijanMap() {
     if (!charDivRef.current) return;
 
     am4core.options.onlyShowOnViewport = true;
-    am4core.options.deferredDelay = 500;
     const map = am4core.create(charDivRef.current, am4maps.MapChart);
     chartInstanceRef.current = map;
 
@@ -31,6 +30,7 @@ export default function AzerbaijanMap() {
     const polygonSeries = new am4maps.MapPolygonSeries();
     polygonSeries.useGeodata = true;
     map.series.push(polygonSeries);
+    map.svgContainer?.measure();
     polygonSeries.data = regionData;
     polygonSeries.calculateVisualCenter = false;
 
