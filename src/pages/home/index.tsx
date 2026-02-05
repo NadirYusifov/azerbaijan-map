@@ -5,7 +5,7 @@ export default function Home() {
   const AzerbaijanMap = lazy(() => import("../../components/map"));
 
   return (
-    <section className="h-dvh mb-80 md:mb-50 lg:mb-0">
+    <section className="h-dvh mb-60 md:mb-40 lg:mb-0">
       <Suspense fallback={<Loading />}>
         <AzerbaijanMap />
       </Suspense>

@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 export default function About() {
   return (
-    <section className="h-dvh mb-80 md:mb-50 lg:mb-0">
+    <section className="h-dvh mb-60 md:mb-40 lg:mb-0">
       <div className="container px-4 mx-auto">
         <article>
           <h3 className="text-md md:text-lg lg:text-xl pb-5">
