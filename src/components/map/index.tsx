@@ -24,10 +24,10 @@ export default function AzerbaijanMap() {
       responsiveMap > 768
         ? am4geodata_azerbaijanHigh
         : am4geodata_azerbaijanLow;
-    map.projection = new am4maps.projections.Miller();
+    map.projection = new am4maps.projections.Mercator();
     map.responsive.enabled = true;
 
-    const polygonSeries = new am4maps.MapPolygonSeries();
+    const polygonSeries = map.series.push(new am4maps.MapPolygonSeries());
     polygonSeries.useGeodata = true;
     map.series.push(polygonSeries);
     map.svgContainer?.measure();
