@@ -442,7 +442,7 @@ export const regionData: RegionData[] = [
     regioncentername: "Mərəzə qəs.",
   },
   {
-    id: "AZ-QB",
+    id: "AZ.QB",
     name: "Quba",
     field: "2574,0 km²",
     date: "1930",
