@@ -2,8 +2,8 @@
   <img src="./public/icon.svg" width="150"/>
 
 # Language
-🇦🇿 <a href="">Azerbaijani</a>
-🇬🇧 <a href="">English</a>
+[🇦🇿 Azerbaijani](https://github.com/NadirYusifov/azerbaijan-map/blob/main/README-az.md)
+[🇬🇧 English](https://github.com/NadirYusifov/azerbaijan-map/blob/main/README.md)
 
 # 🇦🇿 Azerbaijan Map
 

@@ -2,6 +2,10 @@
   <img src="./public/icon.svg" width="150"/>
 </p>
 
+# Dil
+[🇦🇿 Azərbaycanca](https://github.com/NadirYusifov/azerbaijan-map/blob/main/README-az.md)
+[🇬🇧 İngiliscə](https://github.com/NadirYusifov/azerbaijan-map/blob/main/README.md)
+
 # 🇦🇿 Azərbaycan Xəritəsi
 
 İnteraktiv Azərbayan xəritəsi.
