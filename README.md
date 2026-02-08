@@ -1,16 +1,19 @@
 <p align="center">
   <img src="./public/icon.svg" width="150"/>
-</p>
 
-# 🇦🇿 Azərbaycan Xəritəsi
+# Language
+🇦🇿 <a href="">Azerbaijani</a>
+🇬🇧 <a href="">English</a>
 
-İnteraktiv Azərbayan xəritəsi.
+# 🇦🇿 Azerbaijan Map
+
+Interactive map of Azerbaijan.
 
 <img src="./public/intro.gif"/>
 
-## 📄 Açıqlama
+## 📄 Description
 
-Bu veb saytda Azərbaycan regionaları haqqında (sahəsi, yaranma tarixi, kənd sayı, kənd şəhər mərkəzi) məlumat verilib.
+This website provides information about the regions of Azerbaijan (area, date of creation, number of villages, village city center).
 
 ## 🌐 Demo
 
