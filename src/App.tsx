@@ -13,7 +13,7 @@ export default function App() {
       <Navbar />
       <Suspense fallback={<Loading />}>
         <Routes>
-          <Route index element={<Home />} /
+          <Route index element={<Home />} />
           <Route path="haqqimizda" element={<About />} />
         </Routes>
       </Suspense>
