@@ -1,20 +1,21 @@
 <p align="center">
   <img src="./public/icon.svg" width="150"/>
+</p>
 
-# 🌍 Language
+# 🇦🇿 Interactive Azerbaijan Map
+
+Interactive map of Azerbaijan.
+
+## 🌍 Language
 
 [🇦🇿 Azerbaijani](https://github.com/NadirYusifov/azerbaijan-map/blob/main/README-az.md)
 [🇬🇧 English](https://github.com/NadirYusifov/azerbaijan-map/blob/main/README.md)
 
-# 🇦🇿 Azerbaijan Map
-
-Interactive map of Azerbaijan.
-
-<img src="./public/intro.gif"/>
-
-# 📄 Description
+## 📄 Description
 
 This website provides information about the regions of Azerbaijan (area, date of creation, number of villages, village city center).
+
+<img src="./public/intro.gif"/>
 
 ## 🌐 Demo
 
